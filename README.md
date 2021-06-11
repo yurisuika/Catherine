@@ -110,7 +110,7 @@ Get all the hot tips and tricks here!
 
 #### DEPENDENCIES
 
-Sap requires *[Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)* as a dependency!
+Catherine requires *[Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)* as a dependency!
 
 #### SERVERS
 
