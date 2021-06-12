@@ -95,7 +95,7 @@ When using Git, just choose a directory you wish to keep the project root folder
 ```shell script
 git clone --recursive https://github.com/yurisuika/catherine.git
 
-cd ./spawn
+cd ./catherine
 
 ./gradlew build
 ```
