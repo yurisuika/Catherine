@@ -57,4 +57,24 @@ public class MixinInGameHud {
         return 40;
     }
 
+    @ModifyConstant(method = "renderHotbar", constant = @Constant(intValue = 23, ordinal = 1))
+    private int emptyOffhandDistance(int value) {
+        return 24;
+    }
+
+    @ModifyConstant(method = "renderHotbar", constant = @Constant(intValue = 23, ordinal = 0))
+    private int heldOffhandDistance(int value) {
+        return 24;
+    }
+
+    @ModifyConstant(method = "renderHotbar", constant = @Constant(intValue = 3, ordinal = 1))
+    private int offhandItemDistance(int value) {
+        return 4;
+    }
+
+    @ModifyConstant(method = "renderHotbar", constant = @Constant(intValue = 3, ordinal = 0))
+    private int itemDistance(int value) {
+        return 4;
+    }
+
 }
