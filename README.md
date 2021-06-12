@@ -78,6 +78,7 @@ CLICK HERE TO SEE PAST LOGS!
 ##### 1.0.0
 
 * Initial release!
+</details>
 
 ---
 
