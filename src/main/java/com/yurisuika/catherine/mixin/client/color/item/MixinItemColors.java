@@ -45,7 +45,7 @@ public class MixinItemColors {
             if (tintIndex != 1) {
                 return -1;
             } else {
-                NbtCompound nbtCompound = stack.getSubTag("Explosion");
+                NbtCompound nbtCompound = stack.getSubNbt("Explosion");
                 int[] is = nbtCompound != null && nbtCompound.contains("Colors", 11) ? nbtCompound.getIntArray("Colors") : null;
                 if (is != null && is.length != 0) {
                     if (is.length == 1) {
