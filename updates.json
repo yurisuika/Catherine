@@ -1,10 +1,15 @@
 {
   "homepage": "https://github.com/yurisuika/Catherine",
+  "1.17.1": {
+    "1.0.2": "* 1.17.1! Fabric API 0.37.2!"
+  },
   "1.17": {
     "1.0.1": "Fixed items alignment in hotbar! Fabric API 0.35.0!",
     "1.0.0": "Initial release!"
   },
   "promos": {
+    "1.17.1-latest": "1.0.2",
+    "1.17.1-recommended": "1.0.2",
     "1.17-latest": "1.0.1",
     "1.17-recommended": "1.0.1"
   }

@@ -66,14 +66,19 @@ Catherine is a companion mod for *[Isabella](https://github.com/yurisuika/Isabel
 
 ### 1.17 Releases
 
-##### 1.0.1
+##### 1.0.2
 
-* Fixed items alignment in hotbar!
-* Fabric API 0.35.0!
+* 1.17.1!
+* Fabric API 0.37.2!
 
 <details><summary>
 CLICK HERE TO SEE PAST LOGS!
 </summary>
+
+##### 1.0.1
+
+* Fixed items alignment in hotbar!
+* Fabric API 0.35.0!
 
 ##### 1.0.0
 
