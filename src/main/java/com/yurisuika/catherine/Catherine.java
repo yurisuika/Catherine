@@ -1,13 +1,17 @@
 package com.yurisuika.catherine;
 
 import net.fabricmc.api.ModInitializer;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Catherine implements ModInitializer {
+
+	public static final Logger LOGGER = LogManager.getLogger("modid");
 
 	@Override
 	public void onInitialize() {
 
-		System.out.println("Loading Catherine!");
+		LOGGER.info("Loading Catherine!");
 
 	}
 }

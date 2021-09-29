@@ -64,6 +64,13 @@ Catherine is a companion mod for *[Isabella](https://github.com/yurisuika/Isabel
 
 ## CHANGELOG
 
+### 1.18 Releases
+
+##### 1.0.3
+
+* 21w38a!
+* Fabric API 0.40.4!
+
 ### 1.17 Releases
 
 ##### 1.0.2
@@ -114,6 +121,8 @@ While you can compile from source, you can always download the latest releases r
 #### Latest Builds
 
 Stable releases of Catherine ready to be consumed by the public!
+
+##### 1.18 - [*`1.0.3`*](https://github.com/yurisuika/Catherine/releases/download/1.0.3/catherine-21w38a-1.0.3.jar)
 
 ##### 1.17.1 - [*`1.0.2`*](https://github.com/yurisuika/Catherine/releases/download/1.0.2/catherine-1.17.1-1.0.2.jar)
 
