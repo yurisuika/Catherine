@@ -68,8 +68,8 @@ Catherine is a companion mod for *[Isabella](https://github.com/yurisuika/Isabel
 
 ##### 1.0.3
 
-* 21w38a!
-* Fabric API 0.40.4!
+* 21w39a!
+* Fabric API 0.40.5!
 
 ### 1.17 Releases
 
