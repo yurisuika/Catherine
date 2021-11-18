@@ -1,11 +1,8 @@
 {
   "homepage": "https://github.com/yurisuika/Catherine",
   "1.18": {
-<<<<<<< Updated upstream
-    "1.0.3": "21w38a! Fabric API 0.40.4!"
-=======
+    "1.0.4": "Java 17! Fabric API 0.42.7!"
     "1.0.3": "21w39a! Fabric API 0.40.5!"
->>>>>>> Stashed changes
   },
   "1.17.1": {
     "1.0.2": "1.17.1! Fabric API 0.37.2!"
@@ -15,8 +12,8 @@
     "1.0.0": "Initial release!"
   },
   "promos": {
-    "1.18-latest": "1.0.3",
-    "1.18-recommended": "1.0.3",
+    "1.18-latest": "1.0.4",
+    "1.18-recommended": "1.0.4",
     "1.17.1-latest": "1.0.2",
     "1.17.1-recommended": "1.0.2",
     "1.17-latest": "1.0.1",
