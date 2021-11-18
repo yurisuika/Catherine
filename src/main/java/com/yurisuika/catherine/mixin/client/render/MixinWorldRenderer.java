@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.*;
 public class MixinWorldRenderer {
 
     @ModifyConstant(
-            method = "renderSky",
+            method = "renderSky(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/util/math/Matrix4f;FLjava/lang/Runnable;)V",
             constant = @Constant(doubleValue = 0, ordinal = 0),
             slice = @Slice(
                     from = @At(
