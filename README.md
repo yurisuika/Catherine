@@ -132,7 +132,7 @@ While you can compile from source, you can always download the latest releases r
 
 Stable releases of Catherine ready to be consumed by the public!
 
-##### 1.18 - [*`1.0.3`*](https://github.com/yurisuika/Catherine/releases/download/1.0.3/catherine-21w38a-1.0.3.jar)
+##### 1.18 - [*`1.0.4`*](https://github.com/yurisuika/Catherine/releases/download/1.0.4/catherine-1.18-pre4-1.0.4.jar)
 
 ##### 1.17.1 - [*`1.0.2`*](https://github.com/yurisuika/Catherine/releases/download/1.0.2/catherine-1.17.1-1.0.2.jar)
 
