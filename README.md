@@ -66,14 +66,20 @@ Catherine is a companion mod for *[Isabella](https://github.com/yurisuika/Isabel
 
 ### 1.18 Releases
 
-##### 1.0.4
+##### 1.1.0
 
-* Java 17!
-* Fabric API 0.42.7!
+* Coloured Badlands!
+* Code rework!
 
 <details><summary>
 CLICK HERE TO SEE PAST LOGS!
 </summary>
+
+
+##### 1.0.4
+
+* Java 17!
+* Fabric API 0.42.7!
 
 ##### 1.0.3
 
@@ -83,14 +89,19 @@ CLICK HERE TO SEE PAST LOGS!
 
 ### 1.17 Releases
 
-##### 1.0.2
+##### 1.1.0
 
-* 1.17.1!
-* Fabric API 0.37.2!
+* Coloured Badlands!
+* Code rework!
 
 <details><summary>
 CLICK HERE TO SEE PAST LOGS!
 </summary>
+
+##### 1.0.2
+
+* 1.17.1!
+* Fabric API 0.37.2!
 
 ##### 1.0.1
 
@@ -132,9 +143,9 @@ While you can compile from source, you can always download the latest releases r
 
 Stable releases of Catherine ready to be consumed by the public!
 
-##### 1.18 - [*`1.0.4`*](https://github.com/yurisuika/Catherine/releases/download/1.0.4/catherine-1.18-pre4-1.0.4.jar)
+##### 1.18 - [*`1.1.0`*](https://github.com/yurisuika/Catherine/releases/download/1.1.0/catherine-1.18-pre4-1.1.0.jar)
 
-##### 1.17.1 - [*`1.0.2`*](https://github.com/yurisuika/Catherine/releases/download/1.0.2/catherine-1.17.1-1.0.2.jar)
+##### 1.17.1 - [*`1.1.0`*](https://github.com/yurisuika/Catherine/releases/download/1.1.0/catherine-1.17.1-1.1.0.jar)
 
 ##### 1.17 - [*`1.0.1`*](https://github.com/yurisuika/Catherine/releases/download/1.0.1/catherine-1.17-1.0.1.jar)
 
