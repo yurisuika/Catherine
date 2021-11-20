@@ -19,7 +19,7 @@ public class MixinBiomeEffects {
 
     @Mutable
     @Shadow @Final private Optional<Integer> foliageColor;
-
+    @Shadow @Final private Optional<Integer> grassColor;
 
     /**
      * @author
@@ -44,6 +44,20 @@ public class MixinBiomeEffects {
         //The End
         else if (fogColor == 10518688) {return 1250072;}
         else {return fogColor;}
+    }
+
+    /**
+     * @author
+     * Catherine
+     * @reason
+     * Grass Color
+     */
+    @Overwrite()
+    public Optional<Integer> getGrassColor() {
+        //Badlands
+        int opt = grassColor.map(Integer::intValue).orElse(0);
+        if (opt == 9470285) {opt = 11645821; foliageColor = Optional.ofNullable(opt);}
+        return foliageColor;
     }
 
     /**
@@ -88,14 +102,17 @@ public class MixinBiomeEffects {
      * @reason
      * Foliage Color
      */
+    @SuppressWarnings("removal")
     @Overwrite()
     public Optional<Integer> getFoliageColor() {
         double x = 0;
         double z = 0;
         double d = Biome.FOLIAGE_NOISE.sample(x * 0.0225D, z * 0.0225D, false);
         int opt = foliageColor.map(Integer::intValue).orElse(0);
+        //Swamp
         if (opt == 6975545) {opt = d < -0.1D ? 6250554 : 6842177; foliageColor = Optional.ofNullable(opt);}
+        //Badlands
+        else if (opt == 10387789) {opt = 8949348; foliageColor = Optional.ofNullable(opt);}
         return foliageColor;
     }
-
 }

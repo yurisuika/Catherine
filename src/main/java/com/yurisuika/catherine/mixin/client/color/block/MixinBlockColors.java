@@ -1,17 +1,12 @@
 package com.yurisuika.catherine.mixin.client.color.block;
 
+import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.minecraft.block.*;
-import net.minecraft.block.enums.DoubleBlockHalf;
 import net.minecraft.client.color.block.BlockColors;
-import net.minecraft.client.color.world.BiomeColors;
-import net.minecraft.client.color.world.FoliageColors;
-import net.minecraft.client.color.world.GrassColors;
-import net.minecraft.state.property.Property;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Overwrite;
-import org.spongepowered.asm.mixin.gen.Accessor;
-
-import java.util.Set;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(BlockColors.class)
 public class MixinBlockColors {
@@ -22,48 +17,17 @@ public class MixinBlockColors {
      * @reason
      * Block Colors
      */
-    @Overwrite
-    public static BlockColors create() {
-        BlockColors blockColors = new BlockColors();
-        blockColors.registerColorProvider((state, world, pos, tintIndex) -> {
-            return world != null && pos != null ? BiomeColors.getGrassColor(world, state.get(TallPlantBlock.HALF) == DoubleBlockHalf.UPPER ? pos.down() : pos) : -1;
-        }, Blocks.LARGE_FERN, Blocks.TALL_GRASS);
-        blockColors.registerColorProperty(TallPlantBlock.HALF, Blocks.LARGE_FERN, Blocks.TALL_GRASS);
-        blockColors.registerColorProvider((state, world, pos, tintIndex) -> {
-            return world != null && pos != null ? BiomeColors.getGrassColor(world, pos) : GrassColors.getColor(0.5D, 1.0D);
-        }, Blocks.GRASS_BLOCK, Blocks.FERN, Blocks.GRASS, Blocks.POTTED_FERN);
-        blockColors.registerColorProvider((state, world, pos, tintIndex) -> {
-            return FoliageColors.getSpruceColor();
-        }, Blocks.SPRUCE_LEAVES);
-        blockColors.registerColorProvider((state, world, pos, tintIndex) -> {
-            return FoliageColors.getBirchColor();
-        }, Blocks.BIRCH_LEAVES);
-        blockColors.registerColorProvider((state, world, pos, tintIndex) -> {
-            return world != null && pos != null ? BiomeColors.getFoliageColor(world, pos) : FoliageColors.getDefaultColor();
-        }, Blocks.OAK_LEAVES, Blocks.JUNGLE_LEAVES, Blocks.ACACIA_LEAVES, Blocks.DARK_OAK_LEAVES, Blocks.VINE);
-        blockColors.registerColorProvider((state, world, pos, tintIndex) -> {
-            return world != null && pos != null ? BiomeColors.getWaterColor(world, pos) : -1;
-        }, Blocks.WATER, Blocks.BUBBLE_COLUMN, Blocks.WATER_CAULDRON);
-        blockColors.registerColorProvider((state, world, pos, tintIndex) -> {
-            return RedstoneWireBlock.getWireColor((Integer)state.get(RedstoneWireBlock.POWER));
-        }, Blocks.REDSTONE_WIRE);
-        blockColors.registerColorProperty(RedstoneWireBlock.POWER, Blocks.REDSTONE_WIRE);
-        blockColors.registerColorProvider((state, world, pos, tintIndex) -> {
-            return world != null && pos != null ? BiomeColors.getGrassColor(world, pos) : -1;
-        }, Blocks.SUGAR_CANE);
-        blockColors.registerColorProvider((state, world, pos, tintIndex) -> {
-            return 10590319;
-        }, Blocks.ATTACHED_MELON_STEM, Blocks.ATTACHED_PUMPKIN_STEM);
-        blockColors.registerColorProvider((state, world, pos, tintIndex) -> {
+    @Inject(method = "create", at = @At("RETURN"))
+    private static void injected(CallbackInfoReturnable<BlockColors> cir) {
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xa1986f, Blocks.ATTACHED_MELON_STEM);
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xa1986f, Blocks.ATTACHED_PUMPKIN_STEM);
+
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> {
             int i = (Integer)state.get(StemBlock.AGE);
 
             int j = 111;
             int k = 114;
             int l = 81;
-
-//            int j = 112 + 7 * i;
-//            int k = 110 + 6 * i;
-//            int l = 76 + 5 * i;
 
             if (i == 0) {j = 111; k = 114; l = 81; return j << 16 | k << 8 | l;}
             else if (i == 1) {j = 116; k = 117; l = 83; return j << 16 | k << 8 | l;}
@@ -76,11 +40,8 @@ public class MixinBlockColors {
 
             return j << 16 | k << 8 | l;
         }, Blocks.MELON_STEM, Blocks.PUMPKIN_STEM);
-        blockColors.registerColorProperty(StemBlock.AGE, Blocks.MELON_STEM, Blocks.PUMPKIN_STEM);
-        blockColors.registerColorProvider((state, world, pos, tintIndex) -> {
-            return world != null && pos != null ? 6778186 : 6778186;
-        }, Blocks.LILY_PAD);
-        return blockColors;
+
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0x676d4a, Blocks.LILY_PAD);
     }
 
 }
