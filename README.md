@@ -119,7 +119,7 @@ CLICK HERE TO SEE PAST LOGS!
 
 ### Source Building
 
-To build from source you will need have JDK 16 to compile and, optionally, Git to clone the repository. Otherwise, download the archive and just run `./gradlew build` from the root project folder.
+To build from source you will need have JDK 17 to compile and, optionally, Git to clone the repository. Otherwise, download the archive and just run `./gradlew build` from the root project folder.
 
 #### Commands
 
