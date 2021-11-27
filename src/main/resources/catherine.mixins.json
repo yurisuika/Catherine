@@ -2,7 +2,7 @@
   "required": true,
   "minVersion": "0.8",
   "package": "com.yurisuika.catherine.mixin",
-  "compatibilityLevel": "JAVA_17",
+  "compatibilityLevel": "JAVA_16",
   "mixins": [
   ],
   "client": [
@@ -45,6 +45,7 @@
     "client.render.entity.feature.MixinArmorFeatureRenderer",
     "client.render.entity.feature.MixinHorseArmorFeatureRenderer",
     "client.render.entity.feature.MixinWolfCollarFeatureRenderer",
+    "client.toast.MixinRecipeToast",
     "entity.effects.MixinStatusEffects",
     "entity.passive.MixinSheepEntity",
     "item.MixinItems",

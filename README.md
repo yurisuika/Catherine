@@ -55,63 +55,11 @@ Catherine is a companion mod for *[Isabella](https://github.com/yurisuika/Isabel
 
 * Moved HUD up 1 pixel!
 * Hotbar selector no longer cut off!
+* Removed crafting icon from recipe toast!
 
 ##### World
 
 * Removed horizon darkness!
-
----
-
-## CHANGELOG
-
-### 1.18 Releases
-
-##### 1.1.0
-
-* Coloured Badlands!
-* Code rework!
-
-<details><summary>
-CLICK HERE TO SEE PAST LOGS!
-</summary>
-
-
-##### 1.0.4
-
-* Java 17!
-* Fabric API 0.42.7!
-
-##### 1.0.3
-
-* 21w39a!
-* Fabric API 0.40.5!
-</details>
-
-### 1.17 Releases
-
-##### 1.1.0
-
-* Coloured Badlands!
-* Code rework!
-
-<details><summary>
-CLICK HERE TO SEE PAST LOGS!
-</summary>
-
-##### 1.0.2
-
-* 1.17.1!
-* Fabric API 0.37.2!
-
-##### 1.0.1
-
-* Fixed items alignment in hotbar!
-* Fabric API 0.35.0!
-
-##### 1.0.0
-
-* Initial release!
-</details>
 
 ---
 
@@ -143,9 +91,9 @@ While you can compile from source, you can always download the latest releases r
 
 Stable releases of Catherine ready to be consumed by the public!
 
-##### 1.18 - [*`1.1.0`*](https://github.com/yurisuika/Catherine/releases/download/1.1.0/catherine-1.18-pre4-1.1.0.jar)
+##### 1.18 - [*`1.1.1`*](https://github.com/yurisuika/Catherine/releases/download/1.1.1/catherine-1.18-rc3-1.1.1.jar)
 
-##### 1.17.1 - [*`1.1.0`*](https://github.com/yurisuika/Catherine/releases/download/1.1.0/catherine-1.17.1-1.1.0.jar)
+##### 1.17.1 - [*`1.1.1`*](https://github.com/yurisuika/Catherine/releases/download/1.1.1/catherine-1.17.1-1.1.1.jar)
 
 ##### 1.17 - [*`1.0.1`*](https://github.com/yurisuika/Catherine/releases/download/1.0.1/catherine-1.17-1.0.1.jar)
 
