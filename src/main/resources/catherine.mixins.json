@@ -45,6 +45,7 @@
     "client.render.entity.feature.MixinArmorFeatureRenderer",
     "client.render.entity.feature.MixinHorseArmorFeatureRenderer",
     "client.render.entity.feature.MixinWolfCollarFeatureRenderer",
+    "client.toast.MixinRecipeToast",
     "entity.effects.MixinStatusEffects",
     "entity.passive.MixinSheepEntity",
     "item.MixinItems",
