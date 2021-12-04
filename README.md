@@ -2,6 +2,8 @@
 
 Catherine is a companion mod for *[Isabella](https://github.com/yurisuika/Isabella)*. Made for Fabric, it focuses on custom colours hand tailored to the resourcepack.
 
+If you plan to use this with OptiFine you MUST disable Custom Colors unless you want them to be broken.
+
 ---
 
 ## FEATURES
