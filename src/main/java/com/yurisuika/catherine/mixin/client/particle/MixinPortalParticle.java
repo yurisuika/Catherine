@@ -20,9 +20,9 @@ public abstract class MixinPortalParticle extends SpriteBillboardParticle {
         int red = (color & 16711680) >> 16;
         int green = (color & '\uff00') >> 8;
         int blue = (color & 255) >> 0;
-        this.colorRed = (red / 255.0F) * 0.9F;
-        this.colorGreen = (green / 255.0F) * 0.3F;
-        this.colorBlue = blue / 255.0F;
+        this.red = (red / 255.0F) * 0.9F;
+        this.green = (green / 255.0F) * 0.3F;
+        this.blue = blue / 255.0F;
     }
 
 }
