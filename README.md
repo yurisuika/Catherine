@@ -1,67 +1,8 @@
 # Catherine
 
-Catherine is a companion mod for *[Isabella](https://github.com/yurisuika/Isabella)*. Made for Fabric, it focuses on custom colours hand tailored to the resourcepack.
+Catherine is a companion mod for *[Isabella](https://github.com/yurisuika/Isabella)*. Made for Fabric, it focuses on custom colors hand tailored to the resourcepack.
 
 If you plan to use this with OptiFine you MUST disable Custom Colors unless you want them to be broken.
-
----
-
-## FEATURES
-
-### Colours
-
-##### Items
-
-* Spawn Eggs
-* Map
-* Firework Stars
-* Leather Armor
-* Potions
-
-##### Blocks
-
-* Melon Stem
-* Pumpkin Stem
-* Sugar Cane
-* Lily Pad
-* Banners
-
-##### Entities
-
-* Leather Armor
-* Wolf Collars
-* Sheep
-* Sign Text
-
-##### GUI
-
-* Level Loading Screen
-
-##### Particles
-
-* Status Effects
-* Too many others to list!
-
-##### World
-
-* Sky
-* Fog
-* Water
-* Water Fog
-* Grass
-* Foliage
-
-### Fixes
-
-##### GUI
-
-* Moved HUD up 1 pixel!
-* Hotbar selector no longer cut off!
-* Removed crafting icon from recipe toast!
-
-##### World
-
-* Removed horizon darkness!
 
 ---
 
@@ -93,9 +34,9 @@ While you can compile from source, you can always download the latest releases r
 
 Stable releases of Catherine ready to be consumed by the public!
 
-##### 1.18 - [*`1.1.1`*](https://github.com/yurisuika/Catherine/releases/download/1.1.1/catherine-1.18-rc3-1.1.1.jar)
+##### 1.18 - [*`1.1.2`*](https://github.com/yurisuika/Catherine/releases/download/1.1.2/catherine-1.18-1.1.2.jar)
 
-##### 1.17.1 - [*`1.1.1`*](https://github.com/yurisuika/Catherine/releases/download/1.1.1/catherine-1.17.1-1.1.1.jar)
+##### 1.17.1 - [*`1.1.2`*](https://github.com/yurisuika/Catherine/releases/download/1.1.2/catherine-1.17.1-1.1.2.jar)
 
 ##### 1.17 - [*`1.0.1`*](https://github.com/yurisuika/Catherine/releases/download/1.0.1/catherine-1.17-1.0.1.jar)
 
@@ -116,5 +57,3 @@ Join *`play.suikacraft.com`* to play on SuikaCraft today!
 #### COMMUNITY
 
 The one and only! Join the *[SuikaCraft Discord](https://discord.gg/0zdNEkQle7Qg9C1H)* to find the latest discussion on the resource pack and server or just to chat!
-
-We've set up a *[SuikaCraft Guilded](https://www.guilded.gg/i/Z2yNYwAk)* server as well! Come join the chat of the future!
