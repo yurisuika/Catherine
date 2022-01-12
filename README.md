@@ -8,7 +8,7 @@ If you plan to use this with OptiFine you MUST disable Custom Colors unless you 
 
 ---
 
-## DOWNLOADS
+## <p align="center">DOWNLOADS</p>
 
 ### Source Building
 
@@ -36,26 +36,30 @@ While you can compile from source, you can always download the latest releases r
 
 Stable releases of Catherine ready to be consumed by the public!
 
-##### 1.18 - [*`1.1.2`*](https://github.com/yurisuika/Catherine/releases/download/1.1.2/catherine-1.18-1.1.2.jar)
+##### 1.18.1 - [*`1.1.2`*](https://github.com/yurisuika/Catherine/releases/download/1.1.2/catherine-1.18.1-1.1.2.jar)
+
+For Fabric 1.18.1!
 
 ##### 1.17.1 - [*`1.1.2`*](https://github.com/yurisuika/Catherine/releases/download/1.1.2/catherine-1.17.1-1.1.2.jar)
 
+For Fabric 1.17.1!
+
 ##### 1.17 - [*`1.0.1`*](https://github.com/yurisuika/Catherine/releases/download/1.0.1/catherine-1.17-1.0.1.jar)
+
+For Fabric 1.17!
 
 ---
 
-## LINKS
+## <p align="center">LINKS</p>
 
-Get all the hot tips and tricks here!
-
-#### DEPENDENCIES
+#### Dependencies
 
 Catherine requires *[Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)* as a dependency!
 
-#### SERVERS
+#### Servers
 
 Join *`play.suikacraft.com`* to play on SuikaCraft today!
 
-#### COMMUNITY
+#### Community
 
 The one and only! Join the *[SuikaCraft Discord](https://discord.gg/0zdNEkQle7Qg9C1H)* to find the latest discussion on the resource pack and server or just to chat!
