@@ -6,6 +6,8 @@ Catherine is a companion mod for *[Isabella](https://github.com/yurisuika/Isabel
 
 If you plan to use this with OptiFine you MUST disable Custom Colors unless you want them to be broken.
 
+The HUD fix is now part of *[Raised](https://github.com/yurisuika/Raised)* for 1.18 and up!
+
 ---
 
 ## <p align="center">DOWNLOADS</p>
@@ -36,7 +38,7 @@ While you can compile from source, you can always download the latest releases r
 
 Stable releases of Catherine ready to be consumed by the public!
 
-##### 1.18 - [*`1.1.2`*](https://github.com/yurisuika/Catherine/releases/download/1.1.2/catherine-1.18.1-1.1.2.jar)
+##### 1.18 - [*`1.1.3`*](https://github.com/yurisuika/Catherine/releases/download/1.1.3/catherine-1.18.1-1.1.3.jar)
 
 For Fabric 1.18.1!
 
