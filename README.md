@@ -38,11 +38,11 @@ While you can compile from source, you can always download the latest releases r
 
 Stable releases of Catherine ready to be consumed by the public!
 
-##### 1.18 - [*`1.1.3`*](https://github.com/yurisuika/Catherine/releases/download/1.1.3/catherine-1.18.1-1.1.3.jar)
+##### 1.18 - [*`1.1.4`*](https://github.com/yurisuika/Catherine/releases/download/1.1.4/catherine-1.18.1-1.1.4.jar)
 
 For Fabric 1.18.1!
 
-##### 1.17 - [*`1.1.2`*](https://github.com/yurisuika/Catherine/releases/download/1.1.2/catherine-1.17.1-1.1.2.jar)
+##### 1.17 - [*`1.1.4`*](https://github.com/yurisuika/Catherine/releases/download/1.1.4/catherine-1.17.1-1.1.4.jar)
 
 For Fabric 1.17.1!
 
