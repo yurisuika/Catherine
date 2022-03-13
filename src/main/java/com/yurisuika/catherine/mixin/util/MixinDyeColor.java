@@ -1,5 +1,6 @@
 package com.yurisuika.catherine.mixin.util;
 
+import com.yurisuika.catherine.ColorConstants;
 import net.minecraft.util.DyeColor;
 import org.spongepowered.asm.mixin.*;
 import org.spongepowered.asm.mixin.injection.*;
@@ -90,85 +91,84 @@ public class MixinDyeColor {
 //        return 4737096;
 //    }
 
-    @SuppressWarnings("UnresolvedMixinReference")
-    @ModifyArg(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=WHITE")), at = @At(value = "INVOKE", target = "Lnet/minecraft/util/DyeColor;<init> (Ljava/lang/String;IILjava/lang/String;ILnet/minecraft/class_3620;II)V", ordinal = 0), index = 6)
-    private static int whiteFirework (int fireworkColor) {
-        return 14408667;
+    @ModifyConstant(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=WHITE")), constant = @Constant(intValue = 15790320))
+    private static int whiteFirework(int constant) {
+        return ColorConstants.WHITE_FIREWORK;
     }
-    @SuppressWarnings("UnresolvedMixinReference")
-    @ModifyArg(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=ORANGE")), at = @At(value = "INVOKE", target = "Lnet/minecraft/util/DyeColor;<init> (Ljava/lang/String;IILjava/lang/String;ILnet/minecraft/class_3620;II)V", ordinal = 0), index = 6)
-    private static int orangeFirework (int fireworkColor) {
-        return 12618586;
+
+    @ModifyConstant(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=ORANGE")), constant = @Constant(intValue = 15435844))
+    private static int orangeFirework(int constant) {
+        return ColorConstants.ORANGE_FIREWORK;
     }
-    @SuppressWarnings("UnresolvedMixinReference")
-    @ModifyArg(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=MAGENTA")), at = @At(value = "INVOKE", target = "Lnet/minecraft/util/DyeColor;<init> (Ljava/lang/String;IILjava/lang/String;ILnet/minecraft/class_3620;II)V", ordinal = 0), index = 6)
-    private static int magentaFirework (int fireworkColor) {
-        return 11961017;
+
+    @ModifyConstant(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=MAGENTA")), constant = @Constant(intValue = 12801229))
+    private static int magentaFirework(int constant) {
+        return ColorConstants.MAGENTA_FIREWORK;
     }
-    @SuppressWarnings("UnresolvedMixinReference")
-    @ModifyArg(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=LIGHT_BLUE")), at = @At(value = "INVOKE", target = "Lnet/minecraft/util/DyeColor;<init> (Ljava/lang/String;IILjava/lang/String;ILnet/minecraft/class_3620;II)V", ordinal = 0), index = 6)
-    private static int lightBlueFirework (int fireworkColor) {
-        return 8690366;
+
+    @ModifyConstant(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=LIGHT_BLUE")), constant = @Constant(intValue = 6719955))
+    private static int lightBlueFirework(int constant) {
+        return ColorConstants.LIGHT_BLUE_FIREWORK;
     }
-    @SuppressWarnings("UnresolvedMixinReference")
-    @ModifyArg(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=YELLOW")), at = @At(value = "INVOKE", target = "Lnet/minecraft/util/DyeColor;<init> (Ljava/lang/String;IILjava/lang/String;ILnet/minecraft/class_3620;II)V", ordinal = 0), index = 6)
-    private static int yellowFirework (int fireworkColor) {
-        return 11841102;
+
+    @ModifyConstant(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=YELLOW")), constant = @Constant(intValue = 14602026))
+    private static int yellowFirework(int constant) {
+        return ColorConstants.YELLOW_FIREWORK;
     }
-    @SuppressWarnings("UnresolvedMixinReference")
-    @ModifyArg(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=LIME")), at = @At(value = "INVOKE", target = "Lnet/minecraft/util/DyeColor;<init> (Ljava/lang/String;IILjava/lang/String;ILnet/minecraft/class_3620;II)V", ordinal = 0), index = 6)
-    private static int limeFirework (int fireworkColor) {
-        return 7380845;
+
+    @ModifyConstant(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=LIME")), constant = @Constant(intValue = 4312372))
+    private static int limeFirework(int constant) {
+        return ColorConstants.LIME_FIREWORK;
     }
-    @SuppressWarnings("UnresolvedMixinReference")
-    @ModifyArg(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=PINK")), at = @At(value = "INVOKE", target = "Lnet/minecraft/util/DyeColor;<init> (Ljava/lang/String;IILjava/lang/String;ILnet/minecraft/class_3620;II)V", ordinal = 0), index = 6)
-    private static int pinkFirework (int fireworkColor) {
-        return 12554655;
+
+    @ModifyConstant(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=PINK")), constant = @Constant(intValue = 14188952))
+    private static int pinkFirework(int constant) {
+        return ColorConstants.PINK_FIREWORK;
     }
-    @SuppressWarnings("UnresolvedMixinReference")
-    @ModifyArg(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=GRAY")), at = @At(value = "INVOKE", target = "Lnet/minecraft/util/DyeColor;<init> (Ljava/lang/String;IILjava/lang/String;ILnet/minecraft/class_3620;II)V", ordinal = 0), index = 6)
-    private static int grayFirework (int fireworkColor) {
-        return 6250335;
+
+    @ModifyConstant(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=GRAY")), constant = @Constant(intValue = 4408131))
+    private static int grayFirework(int constant) {
+        return ColorConstants.GRAY_FIREWORK;
     }
-    @SuppressWarnings("UnresolvedMixinReference")
-    @ModifyArg(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=LIGHT_GRAY")), at = @At(value = "INVOKE", target = "Lnet/minecraft/util/DyeColor;<init> (Ljava/lang/String;IILjava/lang/String;ILnet/minecraft/class_3620;II)V", ordinal = 0), index = 6)
-    private static int lightGrayFirework (int fireworkColor) {
-        return 9080719;
+
+    @ModifyConstant(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=LIGHT_GRAY")), constant = @Constant(intValue = 11250603))
+    private static int lightGrayFirework(int constant) {
+        return ColorConstants.LIGHT_GRAY_FIREWORK;
     }
-    @SuppressWarnings("UnresolvedMixinReference")
-    @ModifyArg(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=CYAN")), at = @At(value = "INVOKE", target = "Lnet/minecraft/util/DyeColor;<init> (Ljava/lang/String;IILjava/lang/String;ILnet/minecraft/class_3620;II)V", ordinal = 0), index = 6)
-    private static int cyanFirework (int fireworkColor) {
-        return 6133408;
+
+    @ModifyConstant(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=CYAN")), constant = @Constant(intValue = 2651799))
+    private static int cyanFirework(int constant) {
+        return ColorConstants.CYAN_FIREWORK;
     }
-    @SuppressWarnings("UnresolvedMixinReference")
-    @ModifyArg(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=PURPLE")), at = @At(value = "INVOKE", target = "Lnet/minecraft/util/DyeColor;<init> (Ljava/lang/String;IILjava/lang/String;ILnet/minecraft/class_3620;II)V", ordinal = 0), index = 6)
-    private static int purpleFirework (int fireworkColor) {
-        return 8741278;
+
+    @ModifyConstant(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=PURPLE")), constant = @Constant(intValue = 8073150))
+    private static int purpleFirework(int constant) {
+        return ColorConstants.PURPLE_FIREWORK;
     }
-    @SuppressWarnings("UnresolvedMixinReference")
-    @ModifyArg(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=BLUE")), at = @At(value = "INVOKE", target = "Lnet/minecraft/util/DyeColor;<init> (Ljava/lang/String;IILjava/lang/String;ILnet/minecraft/class_3620;II)V", ordinal = 0), index = 6)
-    private static int blueFirework (int fireworkColor) {
-        return 6779057;
+
+    @ModifyConstant(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=BLUE")), constant = @Constant(intValue = 2437522))
+    private static int blueFirework(int constant) {
+        return ColorConstants.BLUE_FIREWORK;
     }
-    @SuppressWarnings("UnresolvedMixinReference")
-    @ModifyArg(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=BROWN")), at = @At(value = "INVOKE", target = "Lnet/minecraft/util/DyeColor;<init> (Ljava/lang/String;IILjava/lang/String;ILnet/minecraft/class_3620;II)V", ordinal = 0), index = 6)
-    private static int brownFirework (int fireworkColor) {
-        return 8283732;
+
+    @ModifyConstant(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=BROWN")), constant = @Constant(intValue = 5320730))
+    private static int brownFirework(int constant) {
+        return ColorConstants.BROWN_FIREWORK;
     }
-    @SuppressWarnings("UnresolvedMixinReference")
-    @ModifyArg(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=GREEN")), at = @At(value = "INVOKE", target = "Lnet/minecraft/util/DyeColor;<init> (Ljava/lang/String;IILjava/lang/String;ILnet/minecraft/class_3620;II)V", ordinal = 0), index = 6)
-    private static int greenFirework (int fireworkColor) {
-        return 6911825;
+
+    @ModifyConstant(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=GREEN")), constant = @Constant(intValue = 3887386))
+    private static int greenFirework(int constant) {
+        return ColorConstants.GREEN_FIREWORK;
     }
-    @SuppressWarnings("UnresolvedMixinReference")
-    @ModifyArg(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=RED")), at = @At(value = "INVOKE", target = "Lnet/minecraft/util/DyeColor;<init> (Ljava/lang/String;IILjava/lang/String;ILnet/minecraft/class_3620;II)V", ordinal = 0), index = 6)
-    private static int redFirework (int fireworkColor) {
-        return 11823717;
+
+    @ModifyConstant(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=RED")), constant = @Constant(intValue = 11743532))
+    private static int redFirework(int constant) {
+        return ColorConstants.RED_FIREWORK;
     }
-    @SuppressWarnings("UnresolvedMixinReference")
-    @ModifyArg(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=BLACK")), at = @At(value = "INVOKE", target = "Lnet/minecraft/util/DyeColor;<init> (Ljava/lang/String;IILjava/lang/String;ILnet/minecraft/class_3620;II)V", ordinal = 0), index = 6)
-    private static int blackFirework (int fireworkColor) {
-        return 4737096;
+
+    @ModifyConstant(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = "stringValue=BLACK")), constant = @Constant(intValue = 1973019))
+    private static int blackFirework(int constant) {
+        return ColorConstants.BLACK_FIREWORK;
     }
 
     // SHEEP + BANNERS + DYES

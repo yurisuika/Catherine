@@ -16,9 +16,9 @@
   "license": "MIT",
   "icon": "assets/catherine/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": [
+    "client": [
       "com.yurisuika.catherine.Catherine"
     ]
   },

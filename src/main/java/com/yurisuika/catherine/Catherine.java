@@ -1,17 +1,15 @@
 package com.yurisuika.catherine;
 
-import net.fabricmc.api.ModInitializer;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import net.fabricmc.api.ClientModInitializer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-public class Catherine implements ModInitializer {
+public final class Catherine implements ClientModInitializer {
 
-	public static final Logger LOGGER = LogManager.getLogger("modid");
+	public static final Logger LOGGER = LoggerFactory.getLogger("Catherine");
 
 	@Override
-	public void onInitialize() {
-
+	public void onInitializeClient() {
 		LOGGER.info("Loading Catherine!");
-
 	}
 }

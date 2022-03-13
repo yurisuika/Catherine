@@ -1,5 +1,6 @@
 package com.yurisuika.catherine.mixin.block;
 
+import com.yurisuika.catherine.ColorConstants;
 import net.minecraft.block.MapColor;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
@@ -10,34 +11,34 @@ public class MixinMapColor {
 
     @Shadow
     @Final
-    public static final MapColor CLEAR = new MapColor(0, 0);
+    public static final MapColor CLEAR = new MapColor(0, ColorConstants.CLEAR);
     @Shadow
     @Final
-    public static final MapColor PALE_GREEN = new MapColor(1, 6185277);
+    public static final MapColor PALE_GREEN = new MapColor(1, ColorConstants.PALE_GREEN);
     @Shadow
     @Final
-    public static final MapColor PALE_YELLOW = new MapColor(2, 10327430);
+    public static final MapColor PALE_YELLOW = new MapColor(2, ColorConstants.PALE_YELLOW);
     @Shadow
     @Final
-    public static final MapColor WHITE_GRAY = new MapColor(3, 12829635);
+    public static final MapColor WHITE_GRAY = new MapColor(3, ColorConstants.WHITE_GRAY);
     @Shadow
     @Final
-    public static final MapColor BRIGHT_RED = new MapColor(4, 10307389);
+    public static final MapColor BRIGHT_RED = new MapColor(4, ColorConstants.BRIGHT_RED);
     @Shadow
     @Final
-    public static final MapColor PALE_PURPLE = new MapColor(5, 12574173);
+    public static final MapColor PALE_PURPLE = new MapColor(5, ColorConstants.PALE_PURPLE);
     @Shadow
     @Final
-    public static final MapColor IRON_GRAY = new MapColor(6, 8487297);
+    public static final MapColor IRON_GRAY = new MapColor(6, ColorConstants.IRON_GRAY);
     @Shadow
     @Final
-    public static final MapColor DARK_GREEN = new MapColor(7, 4935473);
+    public static final MapColor DARK_GREEN = new MapColor(7, ColorConstants.DARK_GREEN);
     @Shadow
     @Final
-    public static final MapColor WHITE = new MapColor(8, 15662589);
+    public static final MapColor WHITE = new MapColor(8, ColorConstants.WHITE);
     @Shadow
     @Final
-    public static final MapColor LIGHT_BLUE_GRAY = new MapColor(9, 9272695);
+    public static final MapColor LIGHT_BLUE_GRAY = new MapColor(9, ColorConstants.LIGHT_BLUE_GRAY);
     @Shadow
     @Final
     public static final MapColor DIRT_BROWN = new MapColor(10, 6312516);

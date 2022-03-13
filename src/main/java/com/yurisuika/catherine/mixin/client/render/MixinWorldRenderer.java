@@ -7,18 +7,18 @@ import org.spongepowered.asm.mixin.injection.*;
 @Mixin(WorldRenderer.class)
 public class MixinWorldRenderer {
 
-    @ModifyConstant(
-            method = "renderSky(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/util/math/Matrix4f;FLjava/lang/Runnable;)V",
-            constant = @Constant(doubleValue = 0, ordinal = 0),
-            slice = @Slice(
-                    from = @At(
-                            value = "INVOKE",
-                            target = "Lnet/minecraft/client/world/ClientWorld$Properties;getSkyDarknessHeight(Lnet/minecraft/world/HeightLimitView;)D"
-                    )
-            )
-    )
-    private double getSkyDarknessHeight(double zero) {
-            return Double.NEGATIVE_INFINITY;
-    }
+    //@ModifyConstant(
+    //        method = "renderSky(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/util/math/Matrix4f;FLjava/lang/Runnable;)V",
+    //        constant = @Constant(doubleValue = 0, ordinal = 0),
+    //        slice = @Slice(
+    //                from = @At(
+    //                        value = "INVOKE",
+    //                        target = "Lnet/minecraft/client/world/ClientWorld$Properties;getSkyDarknessHeight(Lnet/minecraft/world/HeightLimitView;)D"
+    //                )
+    //        )
+    //)
+    //private double getSkyDarknessHeight(double zero) {
+    //        return Double.NEGATIVE_INFINITY;
+    //}
 
 }
