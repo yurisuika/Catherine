@@ -10,7 +10,8 @@
   ],
   "contact": {
     "homepage": "https://suikacraft.com",
-    "sources": "https://github.com/yurisuika/Catherine"
+    "sources": "https://github.com/yurisuika/Catherine",
+    "issues": "https://github.com/yurisuika/Catherine/issues"
   },
 
   "license": "MIT",
@@ -19,7 +20,6 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.yurisuika.catherine.Catherine"
     ]
   },
   "mixins": [
