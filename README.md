@@ -8,6 +8,8 @@ If you plan to use this with OptiFine you MUST disable Custom Colors unless you 
 
 The HUD fix is now part of *[Raised](https://github.com/yurisuika/Raised)* for 1.18 and up!
 
+Catherine is soon to be replaced by *[Lucid](https://github.com/yurisuika/Lucid)*, which is fully configurable from in-game and is much better made!
+
 ---
 
 ## <p align="center">DOWNLOADS</p>
@@ -33,10 +35,6 @@ Afterwards, your compiled JAR will be in `./build/libs`.
 ---
 
 ## <p align="center">LINKS</p>
-
-#### Dependencies
-
-Catherine requires *[Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)* as a dependency!
 
 #### Community
 
