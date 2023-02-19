@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/yurisuika/Catherine/blob/Fabric-1.18/src/main/resources/assets/catherine/icon.png?raw=true" width="256" height="256"></p>
+<p align="center"><img src="https://github.com/yurisuika/Catherine/blob/Fabric-1.18.2/src/main/resources/assets/catherine/icon.png?raw=true" width="256" height="256"></p>
 
 **Catherine** is Fabric mod for Minecraft. A companion for *[Isabella](https://github.com/yurisuika/Isabella)*, it focuses on custom colors hand tailored to the resourcepack.
 
